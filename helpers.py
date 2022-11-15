@@ -40,6 +40,8 @@ def calc_average():
         price = prices[-1]
     append_price(price)
     print("[DEBUG] prices= ", prices)
+
+def get_average():
     average = sum(prices) / len(prices)
     print("[DEBUG] average= ", average)
     return average
