@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Bitcoin price: {{ bitcoin_price }} {% endblock %}</h1>
+{% block title %}
+    <h1> Bitcoin current price: {{ current_price }} </h1>
+    <h1> Bitcoin avg price: {{ avg_price }} </h1>
+{% endblock %}
 {% endblock %}
